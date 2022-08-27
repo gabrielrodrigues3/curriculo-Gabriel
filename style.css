@@ -14,7 +14,7 @@ nav {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    height: 1800px; width: 20%;
+    height: 3125px; width: 20%;
     color: #fff;
     padding: 10px 0px 60px 0px;
     overflow: hidden;
@@ -201,11 +201,25 @@ main {
 }
 
 .experiencia {
-    
+    text-align: left;
 }
 
-.vtal {  /* alinhar imagem com texto */
-    display: flex;
-    align-items: center;
-    padding: 40px 0px 0px 10px;
+.experiencia h2 {
+    padding: 15px 0px 50px 50px;
+}
+
+.images {  /* alinhar imagem com texto */
+    display:flex;
+    align-items:center;
+    text-align:left;
+    line-height: 18px;
+}
+
+.experiencia img {
+    height: 60px;
+    padding: 10px 20px 0px 40px;
+}
+
+.experiencia ul {
+    padding: 10px 0px 80px 55px;
 }
