@@ -1,15 +1,15 @@
-body {
+body {    
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 
 nav {
-    background-color: rgb(66, 63, 128);
+    background-color:  rgb(66, 63, 128);
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    height: 3800px;
-    width: 400px;
+    height: 3100px; width: 20%;
+    min-width: 270px;
     color: #fff;
     padding: 10px 0px 60px 0px;
     overflow: hidden;
@@ -18,7 +18,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type:none;
 }
 
 .perfil {
@@ -38,7 +38,7 @@ nav ul {
     height: 220px;
     border-style: solid;
     border: 5px solid white;
-    border-radius: 50%;
+    border-radius: 50%;   
 }
 
 .idiomas {
@@ -65,29 +65,28 @@ nav ul {
 
 .midias {
     padding-top: 50px;
-    padding-left: 30px;
+    padding-left:30px;
 }
 
 .midias img {
     height: 40px;
-    width: auto;
+    width: auto;   
     align-items: flex-start;
     margin-right: 10px;
 }
 
-.midias li {
-    /* alinhar imagem com texto */
+.midias li {    /* alinhar imagem com texto */
     display: flex;
     align-items: center;
 }
 
-.midias ul li a {
-    color: white;
+.midias ul li a { 
+    color:white;
     text-decoration: none;
 }
 
-.midias ul li a:hover {
-    text-decoration: underline;
+.midias ul li a:hover { 
+text-decoration: underline;
 }
 
 /* MAIN */
@@ -95,10 +94,9 @@ nav ul {
 main {
     background-color: #f7f7f7;
     text-align: right;
-    height: auto;
-    width: 80%;
+    height: auto; width: 80%;
     float: right;
-}
+}    
 
 .cabecalho {
     padding: 40px 30px 0px 0px;
@@ -113,8 +111,7 @@ main {
     padding-top: 15px;
 }
 
-.divider {
-    /* divisor */
+.divider {   /* divisor */
     height: 2px;
     width: 80%;
     margin: 30px 0;
@@ -131,7 +128,7 @@ main {
     text-align: left;
     padding-top: 40px;
     padding: 40px 20px 0px 30px;
-    color: rgb(104, 102, 102);
+    color:rgb(104, 102, 102);
 }
 
 .hardskills img {
@@ -142,8 +139,7 @@ main {
     padding-left: 15px;
 }
 
-.container {
-    /* alinhar imagem com texto */
+.container {  /* alinhar imagem com texto */
     display: flex;
     align-items: center;
     padding: 10px 0px 0px 10px;
@@ -170,8 +166,7 @@ main {
     padding-left: 15px;
 }
 
-.container2 {
-    /* alinhar imagem com texto */
+.container2 {  /* alinhar imagem com texto */
     display: flex;
     align-items: center;
     padding: 40px 0px 0px 10px;
@@ -191,7 +186,7 @@ main {
     padding: 15px 0px 0px 50px;
 }
 
-.formacao ul {
+.formacao ul{
     text-align: left;
     padding: 40px 0px 0px 50px;
 }
@@ -208,11 +203,10 @@ main {
     padding: 15px 0px 50px 50px;
 }
 
-.images {
-    /* alinhar imagem com texto */
-    display: flex;
-    align-items: center;
-    text-align: left;
+.images {  /* alinhar imagem com texto */
+    display:flex;
+    align-items:center;
+    text-align:left;
     line-height: 18px;
 }
 
@@ -223,4 +217,20 @@ main {
 
 .experiencia ul {
     padding: 10px 0px 80px 55px;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        height: 850px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        float: none;
+        width: 100%;
+    
+    }
+
+    main {
+        float: left;
+    }
 }
